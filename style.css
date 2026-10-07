@@ -1,0 +1,134 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef1f6;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+.card {
+    background: white;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px #2bb673  rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+
+h1 {
+    background: #2bb673;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.descricao {
+    text-align: center;
+    color: #0d2b3e;
+    padding: 0 25px;
+    margin-top: 25px;
+}
+
+label {
+    display: block;
+    color: #0d2b3e;
+    font-weight: bold;
+    margin: 20px 25px 5px;
+}
+
+input {
+    width: calc(100% - 50px);
+    margin: 0 25px;
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: calc(100% - 50px);
+    margin: 20px 25px 0;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #040c01;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1a5fa8;
+}
+
+#resultado {
+    margin: 20px 25px;
+    padding: 30px 15px;
+    background: #eef1f6;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0d2b3e;
+}
+
+.faixas {
+    margin: 0 25px;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    color: #0d2b3e;
+}
+
+.faixas p {
+    margin: 8px 0;
+}
+
+.bolinha {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.verde    { background: #2bb673; }
+.azul     { background: #2176d2; }
+.roxa     { background: #8e44ad; }
+.amarela  { background: #f5a623; }
+.vermelha { background: #e74c3c; }
+
+/* ===== Novos estilos para o relatório de notas ===== */
+
+#resultado table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+#resultado th, #resultado td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#resultado th {
+    background: #020100;
+    color: white;
+}
+
+.resumo {
+    text-align: left;
+    font-size: 16px;
+}
+
+.resumo p {
+    margin: 6px 0;
+}
